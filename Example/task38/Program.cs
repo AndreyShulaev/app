@@ -21,7 +21,7 @@ void PrintArray1(double[] Array1)
     }
     Console.Write("]");
     Console.WriteLine();
-    Console.WriteLine($"Всего чисел: {Array1.Length}, Сумма элементов, стоящих на нечётных позициях: {max-min}");
+    Console.WriteLine($"Всего чисел: {Array1.Length}, Разница между максимальным и минимальным: {max-min}");
 }
 // текст программы
 Console.WriteLine("Введите размер массива");
@@ -29,5 +29,5 @@ int ArraySize = Convert.ToInt32(Console.ReadLine());
 double[] Array1 = new double[ArraySize];
 
 InputArray1(Array1);
-Console.Write("Массив, заполненный случайными числами: ");
+Console.Write("Массив, заполненный случайными вещественными числами: ");
 PrintArray1(Array1);
