@@ -9,7 +9,7 @@ while( i < N)
     }    
     else
     {            
-        Console.Write(i+", - ");
+        Console.Write(i+", ");
     }    
     i=i+1;
 }
